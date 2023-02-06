@@ -1,0 +1,7 @@
+Compile in the cmd window after navigating to the fold with the line:
+
+"g++ main.cpp -o main.exe -lws2_32" <-- the -lws2_32 has to come last.
+
+Ask Dad about "network byte order". When trying to find the port that the server is listening on
+it gives the number in network byte order and then has to be converted to get the correct port number
+https://stackoverflow.com/questions/13293953/why-server-socket-gives-port-no-which-is-different-from-bound-port-no
